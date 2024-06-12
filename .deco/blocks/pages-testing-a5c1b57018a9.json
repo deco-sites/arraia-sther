@@ -6,6 +6,29 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "site/sections/Banner.tsx",
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 1
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "banners": [
+        {
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/9c0fbc07-8466-4e74-b1c1-2d788f642228",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/6e0f3093-fc27-4239-9f7b-8ee46b702670",
+          "alt": "Capivaras, logo escrito \"arraia\" e varias bandeirinhas",
+          "href": "/",
+          "width": 1000,
+          "height": 1000,
+          "widthDesktop": 2000,
+          "heightDesktop": 100
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Logos.tsx"
     },
     {
@@ -26,9 +49,6 @@
     },
     {
       "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "site/sections/TestComponent.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

@@ -8,5 +8,9 @@
       }
     ],
     "buttons": []
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/19dd9e06-7c2c-4576-b819-fb9247e5108e",
+    "width": 63
   }
 }
