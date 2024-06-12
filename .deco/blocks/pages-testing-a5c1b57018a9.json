@@ -17,29 +17,54 @@
       },
       "banners": [
         {
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/9c0fbc07-8466-4e74-b1c1-2d788f642228",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/6e0f3093-fc27-4239-9f7b-8ee46b702670",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/04b61a1b-2362-48f8-8c78-ccb147e73b91",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/de4469af-a61d-4eb0-a803-b7fc2d0fac82",
           "alt": "Capivaras, logo escrito \"arraia\" e varias bandeirinhas",
           "href": "/",
           "width": 1000,
           "height": 1000,
-          "widthDesktop": 2000,
-          "heightDesktop": 100
+          "widthDesktop": 1920,
+          "heightDesktop": 1080
         }
       ]
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Venha experimentar nossas comidas",
+      "description": " ",
+      "posts": [
+        {
+          "href": "/",
+          "label": "Daddy home",
+          "description": "a",
+          "theme": "a",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/f691dbcc-3f76-471b-899d-85532d6309a7"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/cf884c48-06fb-42da-983c-773f405a421f",
+          "label": "a",
+          "description": "a",
+          "theme": "a",
+          "href": "/"
+        },
+        {
+          "href": "/",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/249e5506-964e-4948-877f-0c3a27e78770",
+          "label": "a",
+          "description": "a",
+          "theme": "a"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/d5536154-f9b4-4e56-9366-32e3ede8b959",
+          "href": "/",
+          "label": "a",
+          "description": "a",
+          "theme": "a"
+        }
+      ],
+      "layout": {
+        "showArrows": true
+      }
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx"
