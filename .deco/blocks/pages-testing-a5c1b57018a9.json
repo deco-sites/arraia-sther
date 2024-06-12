@@ -60,10 +60,21 @@
           "label": "a",
           "description": "a",
           "theme": "a"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/fc57099d-811c-4221-ad38-523efe40c419",
+          "href": "/",
+          "label": "b",
+          "description": "b",
+          "theme": "b"
         }
       ],
       "layout": {
-        "showArrows": true
+        "showArrows": true,
+        "numberOfSliders": {
+          "mobile": 2,
+          "desktop": 3
+        }
       }
     },
     {
