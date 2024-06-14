@@ -1,1 +1,11 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {
+    "title": "Desenvolvido por Stherzada ❤️",
+    "description": " ",
+    "instructions": "<p> </p>"
+  }
+}

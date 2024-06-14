@@ -143,7 +143,7 @@ bg-white p-8 rounded-3xl"
 
 	return (
 		<div class=" h-[831px] flex flex-col pb-16  to-info">
-			<div class="py-8 md:py-14 px-6">
+			<div class="py-8 md:py-14 px-6 flex justify-center">
 				<Title
 					title={title || "BlogPosts"}
 					fontSize={layout?.headerfontSize || "Normal"}
