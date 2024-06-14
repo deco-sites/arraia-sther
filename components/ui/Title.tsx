@@ -30,7 +30,7 @@ function Title(props: Props) {
 				>
 					{props.title && (
 						<h1
-							class={`font-bold leading-8 lg:leading-10 text-white 
+							class={`font-bold leading-8 lg:leading-10 text-black 
                     ${fontSizeClasses[props.fontSize || "Normal"]}
                   `}
 						>
@@ -41,7 +41,7 @@ function Title(props: Props) {
 						<h2
 							class={`
                     leading-6 lg:leading-8
-                    ${"text-white"}
+                    ${"text-black"}
                     ${fontSizeClassesDescriptions[props.fontSize || "Normal"]}
                   `}
 						>

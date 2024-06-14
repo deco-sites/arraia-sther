@@ -35,53 +35,62 @@
       "posts": [
         {
           "href": "/",
-          "label": "Daddy home",
-          "description": "a",
-          "theme": "a",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/f691dbcc-3f76-471b-899d-85532d6309a7"
+          "description": "Paçoca é um doce feito de amendoim moído, açúcar e sal. Algumas receitas também adicionam farinha, como farinha de milho, farinha de aveia ou farinha de mandioca. a.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/af70d9f9-0411-44fe-bdec-4ef041fd6b94",
+          "label": "Paçoca",
+          "theme": "Festa Junina"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/cf884c48-06fb-42da-983c-773f405a421f",
-          "label": "a",
-          "description": "a",
-          "theme": "a",
-          "href": "/"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/ec5c4b7f-5ca4-4b2f-8e9c-4e84c6d9791c",
+          "label": "Pé de Moleque",
+          "theme": "Festa Junina",
+          "href": "/",
+          "description": "O pé de moleque é um doce típico da culinária brasileira, feito a partir da mistura de amendoim torrado com rapadura. O pé de moleque surgiu em meados do século XVI, com a chegada da cana-de-açúcar ao Brasil"
         },
         {
           "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/249e5506-964e-4948-877f-0c3a27e78770",
-          "label": "a",
-          "description": "a",
-          "theme": "a"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/b0856bc1-2696-4661-b95e-c24d018a243a",
+          "label": "Maçã do amor",
+          "description": "Maçãs do Amor são doces de maçãs inteiras cobertas por uma cobertura de açúcar, com um palito inserido como cabo.",
+          "theme": "Festa Junina"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/d5536154-f9b4-4e56-9366-32e3ede8b959",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/a9cbf9d5-3139-419d-8f80-37fb65bc52f1",
           "href": "/",
-          "label": "a",
-          "description": "a",
-          "theme": "a"
+          "label": "Cocada",
+          "description": "Cocada é um doce à base de coco, tradicional em várias regiões do mundo, especialmente na América Latina e em Angola. Existem variantes quanto a receita aplicada em diferentes países.",
+          "theme": "Festa Junina"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/fc57099d-811c-4221-ad38-523efe40c419",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/2dba3d4c-95bc-4b47-a0d3-d4fcd928ca67",
           "href": "/",
-          "label": "b",
-          "description": "b",
-          "theme": "b"
+          "label": "Canjica ",
+          "description": "Canjica é uma iguaria doce feita de grãos de milho-branco inteiros, cozidos em um caldo contendo leite de coco ou de vaca, açúcar, canela em pó ou casca e cravo-da-índia. ",
+          "theme": "Festa Junina"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/1c117fee-4e93-4d32-976a-c559fbcc9cdb",
+          "alt": "Pamonha",
+          "label": "Pamonha",
+          "description": "Pamonha é um quitute brasileiro, comum nos estados do Nordeste e ainda em Goiás, Mato Grosso, Minas Gerais, Paraná, Rondônia, São Paulo e Tocantins. Provavelmente descende da culinária indígena.",
+          "theme": "Festa Junina"
         }
       ],
       "layout": {
         "showArrows": true,
         "numberOfSliders": {
-          "mobile": 2,
+          "mobile": 1,
           "desktop": 3
         }
       }
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/WebBeijo.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/da330d00-a934-4175-b94a-d5d125c2d6b8",
+      "width": 600,
+      "imageleft": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/bfa9a33f-9afb-464b-8fe1-5e718a98192c",
+      "imageLeft": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/b82ca56a-bc6b-491e-9148-e25a0f65156b",
+      "imageRight": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10735/9351ba3b-e668-4a46-bd76-10809667e91c"
     },
     {
       "__resolveType": "Footer"

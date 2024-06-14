@@ -1,7 +1,7 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Title from "site/components/ui/Title.tsx";
-import SliderJs from "site/components/ui/SliderJs.tsx";
+import SliderJs from "site/islands/SliderJs.tsx";
 import Slider from "site/components/ui/Slider.tsx";
 import Icon from "site/components/ui/Icon.tsx";
 
@@ -20,7 +20,6 @@ export interface Props {
 }
 
 export interface Post {
-	href?: string;
 	image: ImageWidget;
 	alt?: string;
 	label?: string;
@@ -41,7 +40,6 @@ function BlogPosts({
 	} as Props["layout"],
 	posts = [
 		{
-			href: "/",
 			image:
 				"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/80a115a2-3623-4e9b-aec7-42601c2ff416",
 			alt: "alternative text",
@@ -51,7 +49,6 @@ function BlogPosts({
 			theme: "Orientação financeira",
 		},
 		{
-			href: "/",
 			image:
 				"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/80a115a2-3623-4e9b-aec7-42601c2ff416",
 			alt: "alternative text",
@@ -62,7 +59,6 @@ function BlogPosts({
 			theme: "Orientação financeira",
 		},
 		{
-			href: "/",
 			image:
 				"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/80a115a2-3623-4e9b-aec7-42601c2ff416",
 			alt: "alternative text",
@@ -72,7 +68,6 @@ function BlogPosts({
 			theme: "Orientação financeira",
 		},
 		{
-			href: "/",
 			image:
 				"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/80a115a2-3623-4e9b-aec7-42601c2ff416",
 			alt: "alternative text",
@@ -82,7 +77,6 @@ function BlogPosts({
 			theme: "Orientação financeira",
 		},
 		{
-			href: "/",
 			image:
 				"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/80a115a2-3623-4e9b-aec7-42601c2ff416",
 			alt: "alternative text",
@@ -93,7 +87,6 @@ function BlogPosts({
 			theme: "Orientação financeira",
 		},
 		{
-			href: "/",
 			image:
 				"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/80a115a2-3623-4e9b-aec7-42601c2ff416",
 			alt: "alternative text",
@@ -125,11 +118,11 @@ function BlogPosts({
 	};
 
 	const Card = ({ post }: { post: Post }) => (
-		<a
-			href={post.href}
-			class="min-w-[328px] md:min-w-[350px] max-w-[400px] h-[563px]"
-		>
-			<article class="w-full h-full flex flex-col bg-white">
+		<a class="min-w-[328px] md:min-w-[350px] max-w-[400px] h-[563px]">
+			<article
+				class="w-full h-full flex flex-col 
+bg-white p-8 rounded-3xl"
+			>
 				<figure class="w-full h-[283px]">
 					<Image
 						class="w-full h-full object-cover"
@@ -139,8 +132,8 @@ function BlogPosts({
 						height={283}
 					/>
 				</figure>
-				<div class="w-full flex flex-col justify-between px-3 mt-5 gap-6">
-					<h1 class="text-xl font-bold">{post.label}</h1>
+				<div class="w-full flex flex-col justify-between px-3 mt-5 gap-6 items-center">
+					<h1 class="text-xl font-bold text-black">{post.label}</h1>
 					<p class="text-base font-medium no-break-words">{post.description}</p>
 					<p class="text-base font-bold text-secondary">{post.theme}</p>
 				</div>
@@ -149,13 +142,12 @@ function BlogPosts({
 	);
 
 	return (
-		<div class=" h-[831px] flex flex-col pb-16 bg-gradient-to-l from-success to-info">
+		<div class=" h-[831px] flex flex-col pb-16  to-info">
 			<div class="py-8 md:py-14 px-6">
 				<Title
 					title={title || "BlogPosts"}
 					fontSize={layout?.headerfontSize || "Normal"}
 					alignment={layout?.headerAlignment || "center"}
-					description="Prepare-se para uma jornada emocionante rumo à prosperidade financeira."
 				/>
 			</div>
 			<div
@@ -187,7 +179,7 @@ function BlogPosts({
 							<div class="flex justify-between w-14 lg:mr-10">
 								<Slider.PrevButton class="w-12 h-12">
 									<Icon
-										class="text-white w-5"
+										class="text-black w-5"
 										size={24}
 										id="ChevronLeft"
 										strokeWidth={2}
@@ -195,7 +187,7 @@ function BlogPosts({
 								</Slider.PrevButton>
 								<Slider.NextButton class="w-12 h-12">
 									<Icon
-										class="text-white"
+										class="text-black"
 										size={24}
 										id="ChevronRight"
 										strokeWidth={1}

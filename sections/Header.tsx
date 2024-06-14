@@ -46,7 +46,7 @@ export default function Header({
 	},
 }: Nav) {
 	return (
-		<nav class="drawer drawer-end fixed z-50">
+		<nav class="drawer drawer-end fixed bg-primary z-50">
 			<input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
 			{/* main content */}
